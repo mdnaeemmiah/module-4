@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Abul er mar pitha ghor </title>
+    <link rel="stylesheet" href="style/nav.css">
+    <style>
+        label{
+            display: block;
+            margin-bottom: 10px;
+        }
+
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">video</a></li>
+                <li><a href="index2.html">Form</a></li>
+                <li>
+                    <a href="table.html">Table</a>
+                    <ul class="dropdown"> 
+                        <li><a href="index.html">video </a></li>
+                        <li><a href="index2.html">Form</a></li>
+                        <li><a href="table.html">Table</a></li>
+                        <li><a href="index3.html">Form</a></li>
+                    </ul>
+                
+                </li>
+                <li><a href="index3.html">Form</a></li>
+             </ul>   
+        </nav>
+    </header>
+<main>
+    <section>
+        <h1>Please fill up the from</h1>
+        <form >
+            <label for="name">Your Name:
+                <input id="name" type="text" placeholder="Your Name">
+            </label>
+            <label for="email">Your Email:
+                <input type="email" name="email" id="email" placeholder="Your email">
+            </label>
+            <label for="phone">Your Phone:
+                <input type="pjone" name="phone" id="phone" placeholder="Your phone">
+            </label>
+            <fieldset>
+                <legend>Pick one PiTha</legend>
+                <label for="chitoy">
+                    <input type="radio" name="pitha" id="radio">Chitoy
+                </label>
+                <label for="Bapha">
+                    <input type="radio" name="pitha" id="Bapha">Bapha
+                </label>
+                <label for="Puri">
+                    <input type="radio" name="pitha" id="puri">Puri
+                </label>
+            </fieldset>
+            <fieldset>
+                <legend>Picke one or more bortha</legend>
+                <label for="sorisha">
+                    <input type="checkbox" name="vorta" id="sorisha">sorisha
+                </label>
+                <label for="chapa">
+                    <input type="checkbox" name="vorta" id="chapa">Chapa
+                </label>
+                <label for="morich">
+                    <input type="checkbox" name="vorta" id="morich">morich
+                </label>
+            </fieldset>
+                <fieldset>
+                    <legend>Special Instraction</legend>
+                    <textarea name="" id="" cols="30" rows="6"></textarea>
+                </fieldset>
+                <input type="reset" name="" id="" value="reset">
+                <input type="submit" name="" id="" value="submit" >
+
+        </form>
+    </section>
+</main>
+<footer>
+
+
+</footer>
+    
+</body>
+</html>
